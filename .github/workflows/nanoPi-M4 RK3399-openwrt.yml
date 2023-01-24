@@ -3,7 +3,7 @@
 name: NanoPi-M4 RK3399 OpenWrt Build
 
 on:  
-# 执行此脚本请删除下面3行的#，然后点击start commit
+# start commit
   push:
     branches: 
       - master
@@ -13,7 +13,7 @@ on:
   # release:
   #   types: [published]
     
-#环境变量：SSH_ACTIONS设置为true则会在执行完Costom Configure File后显示一个SSH的链接，可用终端或者web登录到vps进行配置
+# SSH_ACTIONS设置为true则会在执行完Costom Configure File后显示一个SSH的链接，可用终端或者web登录到vps进行配置
 env:
   SSH_ACTIONS: false
   TZ: Asia/Shanghai
